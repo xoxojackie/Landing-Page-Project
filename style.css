@@ -4,16 +4,18 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .header {
-    background-color: #4c566b;
-    color: #d8dee9;
+    background-color: #2e3440;
+    color: #eceff4;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +41,49 @@ section {
 }
 
 .header a {
-    color: #d8dee9;
+    color: #eceff4;
     text-decoration: none;
     font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2e3440;
+    color: #eceff4;
+}
+
+.hero-left {
+    width: 45%;
+}
+
+.hero img {
+    width: 500px;
+
+}
+
+.hero button {
+    padding: 8px 24px;
+    background-color: #5d80ae;
+    color: #eceff4;
+    border: 0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.hero-title {
+    font-size: 48px;
+}
+
+.hero-text {
+    color: #d7dfe88e;
+    font-size: 18px;
+}
+
+.hero-title,
+.hero-text {
+    padding-bottom: 10px;
 }

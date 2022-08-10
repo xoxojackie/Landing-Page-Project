@@ -197,6 +197,12 @@ button {
     font-weight: 700;
 }
 
+.action button:hover {
+    background-color: #eceff4;
+    color: #5d80ae;
+    cursor: pointer;
+}
+
 .footer {
     background-color: #2e3440;
     color: #eceff4;

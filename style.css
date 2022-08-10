@@ -80,7 +80,8 @@ button {
 }
 
 .hero button:hover {
-    background-color: #80a0c2;
+    background-color: #eceff4;
+    color: #5d80ae;
     cursor: pointer;
 }
 
